@@ -4,7 +4,7 @@ def prime?(number)
     return false
   end
   
-  counter = 1 
+  counter = 2 
   while counter < Math.sqrt(number).to_i
     if number/counter == 0
       return false
