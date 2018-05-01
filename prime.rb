@@ -4,7 +4,6 @@ def prime?(number)
     return false
   end
   
-  counter = 2 
   for n in 2..Math.sqrt(number).to_i
     if number % n == 0
       return false
