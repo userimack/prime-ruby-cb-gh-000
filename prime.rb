@@ -5,8 +5,8 @@ def prime?(number)
   #end
   
   for n in 2..Math.sqrt(number).to_i
-    if number % n == 0
-      return false
+    return false if number % n == 0
+      
     end 
   end 
   true 
