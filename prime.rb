@@ -11,6 +11,6 @@ def prime?(number)
     counter += 1
     end 
   end 
-  false 
+  true 
 end 
   
