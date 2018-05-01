@@ -1,6 +1,8 @@
 # Add  code here!
 def prime?(number)
-  return false if number < 0
+  if number < 0 
+    return false
+  end
   counter = 1 
   while counter < Math.sqrt(number).to_i
     if number/counter == 0
