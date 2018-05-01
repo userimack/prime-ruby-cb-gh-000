@@ -2,7 +2,7 @@
 def prime?(number)
   return false if number <= 1 
     
-  end
+  #end
   
   for n in 2..Math.sqrt(number).to_i
     if number % n == 0
