@@ -5,11 +5,9 @@ def prime?(number)
   end
   
   counter = 2 
-  while counter < Math.sqrt(number).to_i
+  for n in 2..Math.sqrt(number).to_i
     if number % counter == 0
       return false
-    else 
-      counter += 1
     end 
   end 
   true 
