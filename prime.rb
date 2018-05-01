@@ -6,7 +6,7 @@ def prime?(number)
   
   counter = 2 
   while counter < Math.sqrt(number).to_i
-    if number/counter == 0
+    if number%counter == 0
       return false
     counter += 1
     end 
