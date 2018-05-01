@@ -8,7 +8,8 @@ def prime?(number)
   while counter < Math.sqrt(number).to_i
     if number % counter == 0
       return false
-    counter += 1
+    else 
+      counter += 1
     end 
   end 
   true 
