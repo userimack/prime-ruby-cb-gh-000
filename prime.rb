@@ -6,7 +6,7 @@ def prime?(number)
   
   counter = 2 
   for n in 2..Math.sqrt(number).to_i
-    if number % counter == 0
+    if number % n == 0
       return false
     end 
   end 
