@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
-  if number <= 1 
-    return false
+  return false if number <= 1 
+    
   end
   
   for n in 2..Math.sqrt(number).to_i
